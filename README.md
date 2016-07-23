@@ -21,4 +21,4 @@
 倉頡第三代
 ----------
  - 輸入法發明人：朱邦復先生 http://www.cbflabs.com
- - 　　碼表維護：倉頡之友.馬來西亞 http://www.chinesecj.com  
+ - 　　碼表維護：倉頡之友 · 馬來西亞 http://www.chinesecj.com  

@@ -1,4 +1,4 @@
-![logo](http://www.scj2000.net/sites/default/files/garland_logo.png)快速倉頡輸入法
+![logo](https://avatars3.githubusercontent.com/u/8654343?v=3&s=200)快速倉頡輸入法
 ======================================
 
 快倉2000 - 快速倉頡輸入法 第六代（v6.2.2）

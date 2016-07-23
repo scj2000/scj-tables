@@ -8,7 +8,7 @@
  - 網址：http://www.scj2000.net
  - Copyright (C) 2002-2009 麥志洪 <makchehu AT netvigator DOT com>  
  - Copyright (C) 2002-2009 Quintus Leung <quintus AT scj2000 DOT net>  
- - 授權方式: GPL version 3  
+ - 授權方式：GPL version 3  
  - 可用字符：15,270個繁體和簡體中文漢字
  - 可用編碼：Unicode 4.0、BIG5、BIG5-HKSCS、GB18030、GBK、GB
 

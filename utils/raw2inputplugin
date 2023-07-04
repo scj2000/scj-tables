@@ -1,0 +1,27 @@
+#!/bin/sh
+
+SRC="${1:-scj6.raw.txt}"
+DST="${2:-scj6.inputplugin}"
+DST_UTF8="$DST.utf8"
+
+(cat <<EOH
+# Smart Cangjie IME
+METHOD: TABLE
+ENCODE: TC
+PROMPT: 快倉六
+DELIMITER: ,
+VERSION: 6.2.2
+MAXINPUTCODE: 7
+VALIDINPUTKEY: abcdefghijklmnopqrstuvwxyz
+TERMINPUTKEY: 123456
+
+BEGINCHARACTER
+EOH
+) > "$DST_UTF8"
+cat "$SRC" | awk '{sep=(A[$1]=="")?"":",";A[$1]=A[$1] sep $2}END{for(i in A){print i"\t"A[i]}}' \
+ | sort >> "$DST_UTF8"
+(cat <<EOF
+ENDCHARACTER
+EOF
+) >> "$DST_UTF8"
+iconv -f UTF-8 -t UTF-16 "$DST_UTF8" > "$DST"
